@@ -1,0 +1,25 @@
+body {
+    font-family: Palatino;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+  
+  }
+  .form-item {
+    width: 100%;
+    margin-bottom: 1em ;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  ul > * {
+    /* justify-content: space-between; */
+    background-color: hotpink;
+  }
+  
