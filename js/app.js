@@ -32,7 +32,7 @@ const createFilmEntry = function (form) {
     filmListItem.appendChild(releaseYear)
 
     const watchedRecently = document.createElement('h4')
-    if (form.watchedrecently.checked === true){
+    if (form.watchedrecently.checked){
       watchedRecently.textContent = "Watched Recently? " + form.watchedrecently.value
   } else {
     watchedRecently.textContent = "Watched Recently? No"
