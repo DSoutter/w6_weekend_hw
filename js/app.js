@@ -31,6 +31,10 @@ const createFilmEntry = function (form) {
     releaseYear.textContent = form.releaseyear.value
     filmListItem.appendChild(releaseYear)
 
+    const watchedRecently = document.createElement('h4')
+    watchedRecently.textContent = form.watchedrecently.value
+    filmListItem.appendChild(watchedRecently)
+
     return filmListItem
 }
 
