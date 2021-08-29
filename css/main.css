@@ -3,23 +3,27 @@ body {
   }
   
   form {
-    display: flex;
-    justify-content: center;
-  
+    /* display: flex; */
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 5px;
   }
   .form-item {
-    width: 100%;
     margin-bottom: 1em ;
   }
   ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+
   }
   
   ul > * {
     /* justify-content: space-between; */
-    background-color: hotpink;
+    background-color: antiquewhite;
+    list-style-type: none;
+    padding: 20px;
+    margin-bottom: 20px;
   }
   
